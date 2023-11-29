@@ -1,10 +1,25 @@
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true
       #shutdown 활성화
+    health:
+      #      show-details: always
+      show-components: always
   endpoints:
     web:
       exposure:
         include: "*"
         #모든 엔드포인트 노출
+
+info:
+  app:
+    name: hello-actuator
+    company: ezzange
