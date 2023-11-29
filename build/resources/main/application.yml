@@ -1,5 +1,10 @@
 management:
+  endpoint:
+    shutdown:
+      enabled: true
+      #shutdown 활성화
   endpoints:
     web:
       exposure:
         include: "*"
+        #모든 엔드포인트 노출
