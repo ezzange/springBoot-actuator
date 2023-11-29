@@ -23,3 +23,7 @@ info:
   app:
     name: hello-actuator
     company: ezzange
+
+logging:
+  level:
+    hello.controller: debug
